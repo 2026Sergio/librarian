@@ -1,0 +1,25 @@
+{
+  "name": "librarian",
+  "version": "1.0.0",
+  "description": "Librería con nodejs expressjs",
+  "keywords": [
+    "Node.js",
+    "Expressjs",
+    "Nodemon",
+    ".Env"
+  ],
+  "license": "ISC",
+  "author": "2026Sergio",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --watch server.js --quiet"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.6",
+    "nodemon": "^3.1.14"
+  }
+}
